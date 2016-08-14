@@ -5,7 +5,7 @@ Connection class for Cura to communicate with Tiko 3D printer. Supports:
 - Connecting, printing (all calibration modes), cancelling in Cura.
 
 ##Get Started
-1. Place these files in ```/Cura/util/printerConnetion``` *(ie. ```C:\Program Files\Cura_15.04.3\Cura\util\printerConnection```)*
+1. Place these files in ```/Cura/util/printerConnection``` *(ie. ```C:\Program Files\Cura_15.04.3\Cura\util\printerConnection```)*
 2. Connect with Tiko, open Cura, open a model.
 3. Change to Pronterface UI *(File > Preferences...)*
 4. "*Print with Tiko*" button. Then press "*Print*".
