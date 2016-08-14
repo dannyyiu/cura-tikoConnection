@@ -171,12 +171,6 @@ class tikoConnection(printerConnectionBase.printerConnectionBase):
 		url = self.API[input][0] if self.API[input] else input
 		method = self.API[input][1] if self.API[input] else method
 		print self.HOST + url + "   " + method
-		if postData:
-				print postData[:150]
-				self._http.request(
-					method, 
-					url, 
-					postData)
 		try: 
 			if postData:
 				#print postData
@@ -188,7 +182,6 @@ class tikoConnection(printerConnectionBase.printerConnectionBase):
 				self._http.request(
 					method, 
 					url)
-				
 		except:
 			self._http.close()
 			return None
