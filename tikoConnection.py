@@ -81,9 +81,9 @@ class tikoConnection(printerConnectionBase.printerConnectionBase):
 		#Tiko: Defaults
 		
 		# !!!!!!!! CHANGE CALIBRATION MODE HERE !!!!!!!!
-		#self._calibrationMode = self.CALIBRATION_AUTO
+		self._calibrationMode = self.CALIBRATION_AUTO
 		#self._calibrationMode = self.CALIBRATION_SKIP
-		self._calibrationMode = self.CALIBRATION_MANUAL
+		#self._calibrationMode = self.CALIBRATION_MANUAL
 		
 		# !!!!! CHANGE MANUAL CALIBRATION VALUES HERE !!!!!
 		self._manualCalibrationVals = [ 
